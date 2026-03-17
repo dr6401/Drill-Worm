@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Ore : MonoBehaviour
@@ -7,8 +9,11 @@ public class Ore : MonoBehaviour
     public int maxHealth = 3;
     public float knockbackForce = 10f;
 
+    [SerializeField] private Transform crackFoldersRoot;
+    [SerializeField] private Transform[] crackFolders;
+
     [SerializeField] private GameObject foodSpawnPrefab;
-    private float randomSpawnOffset = 2f;
+    private float randomSpawnOffset = 3f;
 
     private float canBeDamagedCooldown = 0.5f;
     public float timeSinceLastDamaged; 
@@ -16,6 +21,18 @@ public class Ore : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+
+        crackFolders = new Transform[crackFoldersRoot.childCount];
+        for (int i = 0; i < crackFoldersRoot.childCount; i++)
+        {
+            crackFolders[i] = crackFoldersRoot.GetChild(i);
+            crackFolders[i].gameObject.SetActive(false);
+        }
+
+        if (crackFolders.Length > 0)
+        {
+            crackFolders[0].gameObject.SetActive(true);
+        }
     }
 
     private void Update()
@@ -26,6 +43,19 @@ public class Ore : MonoBehaviour
     private void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        float healthRatio = (float)currentHealth / maxHealth;
+        int totalFolders = crackFolders.Length;
+
+        for (int i = 0; i < totalFolders; i++)
+        {
+            float threshold = 1f - ((float)i / totalFolders);
+            if (healthRatio <= threshold)
+            {
+                crackFolders[i].gameObject.SetActive(true);
+            }
+        }
+        
         if (currentHealth <= 0)
         {
             GetDestroyed();
