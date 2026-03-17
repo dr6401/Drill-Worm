@@ -10,6 +10,10 @@ public class PlayerStats : MonoBehaviour
     public int currentLevel = 1;
     public int currentExperience = 0;
     public int xpUntilLevelUp = 10;
+    
+    [Header("Health")]
+    public int currentHealth = 5;
+    public int maxHealth = 10;
 
     private void Awake()
     {
@@ -26,16 +30,20 @@ public class PlayerStats : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
         // DEBUG
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        /*if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             Consume(1);
+        }*/
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            TakeDamage(1);
         }
     }
 
@@ -48,11 +56,32 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+    }
+
     private void LevelUp()
     {
         currentExperience = 0;
         xpUntilLevelUp = Mathf.RoundToInt(xpUntilLevelUp * 1.25f);
         currentLevel++;
         GameEvents.OnLevelUp?.Invoke();
+    }
+
+    private void Die()
+    {
+        Debug.Log("Man im dead");
+        GameEvents.OnPlayerDeath?.Invoke();
     }
 }

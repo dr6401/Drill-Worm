@@ -365,8 +365,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc52d5734d380240af698cf0203a2f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movement
-  maxMoveSpeed: 5
+  currentSpeed: 0
+  moveSpeed: 5
   acceleration: 15
+  dashMoveSpeedIncreaseMultiplier: 2
+  dashCooldown: 3
+  maxDashingTime: 2
 --- !u!114 &912986175194647763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,6 +417,8 @@ MonoBehaviour:
   currentLevel: 1
   currentExperience: 0
   xpUntilLevelUp: 10
+  currentHealth: 5
+  maxHealth: 10
 --- !u!1 &4593350164264528247
 GameObject:
   m_ObjectHideFlags: 0
