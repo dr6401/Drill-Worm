@@ -27,16 +27,12 @@ public class WormAnimation : MonoBehaviour
         }
         segments.Add(tailTransform);
         segments.RemoveAll(seg => seg.CompareTag("SegmentsFolder"));
-        foreach (Transform transform in segments)
+        /*foreach (Transform transform in segments)
         {
             Debug.Log($"Hey my name is {transform.name} and I'm position {segments.IndexOf(transform)} in the chain");
-        }
+        }*/
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
+    
 
     public void AnimateBody()
     {
