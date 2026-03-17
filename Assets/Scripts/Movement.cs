@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal;
@@ -6,9 +7,20 @@ using UnityEngine.Rendering.Universal;
 public class Movement : MonoBehaviour
 {
     private Transform headTransform;
-    public float maxMoveSpeed = 5f;
+    [Header("Speed")]
+    public float currentSpeed;
+    public float moveSpeed = 5f;
+    private float originalMoveSpeed;
     public float acceleration = 15f;
     private float slowRadius = 1f;
+    
+    [Header("Dash")]
+    public float dashMoveSpeedIncreaseMultiplier = 1.5f;
+    public float dashCooldown = 3f;
+    private float timeSinceLastDash = 0f;
+    private float currentDashingTime = 0f;
+    public float maxDashingTime = 1f;
+    private bool isDashing;
 
     private Vector2 velocity;
     private Vector3 worldPosition;
@@ -28,6 +40,7 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
+        originalMoveSpeed = moveSpeed;
     }
 
     // Update is called once per frame
@@ -35,21 +48,21 @@ public class Movement : MonoBehaviour
     {
         // Position
         Vector2 mousePosition = Mouse.current.position.ReadValue();
-        Vector3 mouseScreen = new Vector3(mousePosition.x, mousePosition.y, 0);
         worldPosition = cam.ScreenToWorldPoint(mousePosition);
         worldPosition.z = 0;
-        
-        Vector2 delta = worldPosition - headTransform.position;
-        /*if (delta.magnitude > 0.1f)
+
+        if (Mouse.current.rightButton.isPressed && timeSinceLastDash >= dashCooldown)
         {
-            //Debug.Log($"Big enough mouse distance, moving");
-            Move();
-            Rotate();
+            Dash();
         }
-        else
+
+        if ((Mouse.current.rightButton.wasReleasedThisFrame || currentDashingTime >= maxDashingTime) && isDashing)
         {
-            //Debug.Log($"Not big enough mouse distance, not moving");
-        }*/
+            EndDash();
+        }
+        
+        timeSinceLastDash += Time.deltaTime;
+        
         Move();
         Rotate();
         wormAnimation.AnimateBody();
@@ -60,12 +73,12 @@ public class Movement : MonoBehaviour
         Vector2 toTarget = worldPosition - headTransform.position;
         float distance = toTarget.magnitude;
 
-        float targetSpeed = maxMoveSpeed;
+        currentSpeed = moveSpeed;
         if (distance < slowRadius)
         {
-            targetSpeed = maxMoveSpeed * (distance / slowRadius);
+            currentSpeed = moveSpeed * (distance / slowRadius);
         }
-        Vector2 desiredVelocity = toTarget.normalized * targetSpeed;
+        Vector2 desiredVelocity = toTarget.normalized * currentSpeed;
         velocity = Vector2.MoveTowards(velocity, desiredVelocity, acceleration * Time.deltaTime);
         
         headTransform.position += (Vector3) (velocity * Time.deltaTime);
@@ -80,5 +93,20 @@ public class Movement : MonoBehaviour
         
         
         headTransform.rotation = Quaternion.RotateTowards(headTransform.rotation, targetRotation, maxRotationSpeed * Time.deltaTime);
+    }
+
+    private void Dash()
+    {
+        isDashing = true;
+        moveSpeed = originalMoveSpeed * dashMoveSpeedIncreaseMultiplier;
+        currentDashingTime += Time.deltaTime;
+    }
+
+    private void EndDash()
+    {
+        currentDashingTime = 0;
+        timeSinceLastDash = 0;
+        isDashing = false;
+        moveSpeed = originalMoveSpeed;
     }
 }
