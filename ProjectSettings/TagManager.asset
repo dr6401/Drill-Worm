@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Head
   - SegmentsFolder
+  - HealthSlider
+  - XpSlider
   layers:
   - Default
   - TransparentFX
