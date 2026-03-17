@@ -480,6 +480,9 @@ MonoBehaviour:
   augmentName: {fileID: 4038818704152397518}
   augmentDescription: {fileID: 3913115583661260661}
   iconImage: {fileID: 6135216461775144999}
+  gradient: {fileID: 1280890010759033071}
+  top: {fileID: 5105211305904080228}
+  corner: {fileID: 2280446210663508259}
 --- !u!1 &5251520728929690096
 GameObject:
   m_ObjectHideFlags: 0

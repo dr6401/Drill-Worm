@@ -10,6 +10,11 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private TMP_Text augmentDescription;
     [SerializeField] private Image iconImage;
 
+    [Header("Color Correction")]
+    [SerializeField] private Image gradient;
+    [SerializeField] private Image top;
+    [SerializeField] private Image corner;
+
     private Augment augment;
     private GameObject player;
     private UpgradesSelectionUI upgradesSelectionUI;
@@ -35,6 +40,10 @@ public class UpgradeButton : MonoBehaviour
         augmentName.text = augment.augmentName;
         augmentDescription.text = augment.description;
         iconImage.sprite = augment.icon;
+        
+        gradient.color = augment.color;
+        top.color = DarkenColor(augment.color, 0.7f);
+        corner.color = DarkenColor(augment.color, 0.7f);
 
     }
     
@@ -57,5 +66,18 @@ public class UpgradeButton : MonoBehaviour
         Debug.Log("Selected " + augment.augmentName + "!");
         GameEvents.OnUpgradeChosen?.Invoke();
         //GameEvents.OnHasSettingsUICoveredUpAugmentUI?.Invoke(false);
+    }
+
+    public Color DarkenColor(Color color, float percentage)
+    {
+        Color.RGBToHSV(color, out float h, out float s, out float v);
+
+        v *= percentage;
+        v = Mathf.Clamp01(v);
+        
+        Color darker = Color.HSVToRGB(h, s, v);
+        darker.a = color.a;
+        
+        return darker;
     }
 }

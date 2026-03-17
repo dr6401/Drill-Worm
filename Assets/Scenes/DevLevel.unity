@@ -7643,6 +7643,7 @@ MonoBehaviour:
   levelManager: {fileID: 0}
   silverAugments:
   - {fileID: 11400000, guid: 46fc8b6c58fa83b488cfa2031bd58861, type: 2}
+  - {fileID: 11400000, guid: 5c118cbc3e96b6d458bdc6cb89b4da38, type: 2}
   goldAugments: []
   prismaticAugments: []
   numberOfChoices: 3

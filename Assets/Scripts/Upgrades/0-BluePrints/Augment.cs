@@ -19,6 +19,7 @@ public abstract class Augment : ScriptableObject
     public string augmentName;
     [TextArea] public string description;
     public Sprite icon;
+    public Color color;
     public AugmentTier tier;
     public AugmentCategory category;
     

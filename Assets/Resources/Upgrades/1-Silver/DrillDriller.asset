@@ -15,5 +15,6 @@ MonoBehaviour:
   augmentName: Drill Driller
   description: Increase Drill damage +1
   icon: {fileID: 21300000, guid: d4f53117a82a227469b1e9ab91b9fad6, type: 3}
+  color: {r: 0, g: 0.9021423, b: 1, a: 1}
   tier: 0
   category: 0
