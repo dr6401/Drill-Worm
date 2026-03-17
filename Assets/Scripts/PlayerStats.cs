@@ -14,6 +14,9 @@ public class PlayerStats : MonoBehaviour
     [Header("Health")]
     public int currentHealth = 5;
     public int maxHealth = 10;
+    
+    [Header("Damage")]
+    public int drillDamage = 1;
 
     private void Awake()
     {

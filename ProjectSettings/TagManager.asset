@@ -8,6 +8,7 @@ TagManager:
   - SegmentsFolder
   - HealthSlider
   - XpSlider
+  - DrillZone
   layers:
   - Default
   - TransparentFX

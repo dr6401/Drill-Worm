@@ -6,6 +6,8 @@ using UnityEngine.Rendering.Universal;
 
 public class Movement : MonoBehaviour
 {
+    public static Movement Instance;
+    
     private Transform headTransform;
     [Header("Speed")]
     public float currentSpeed;
@@ -33,6 +35,15 @@ public class Movement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
+        if (Instance != null &&  Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+        
         headTransform = GameObject.FindGameObjectWithTag("Head").transform;
         wormAnimation = gameObject.GetComponent<WormAnimation>();
         cam = Camera.main;
@@ -108,5 +119,12 @@ public class Movement : MonoBehaviour
         timeSinceLastDash = 0;
         isDashing = false;
         moveSpeed = originalMoveSpeed;
+    }
+
+    public void GetKnockedBack(Vector2 sourcePosition, float force)
+    {
+        Vector2 direction = ((Vector2)headTransform.position - sourcePosition).normalized;
+        
+        velocity += direction * force;
     }
 }
