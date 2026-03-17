@@ -39,7 +39,7 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    private void Consume(int xpAmount)
+    public void Consume(int xpAmount)
     {
         currentExperience += xpAmount;
         if (currentExperience >= xpUntilLevelUp)
