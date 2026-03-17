@@ -13,7 +13,7 @@ public class Ore : MonoBehaviour
     [SerializeField] private Transform[] crackFolders;
 
     [SerializeField] private GameObject foodSpawnPrefab;
-    private float randomSpawnOffset = 3f;
+    private float randomSpawnOffset = 2f;
 
     private float canBeDamagedCooldown = 0.5f;
     public float timeSinceLastDamaged; 
@@ -73,7 +73,7 @@ public class Ore : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         //Debug.Log($"Collided with {other.gameObject.name}");
         if (other.CompareTag("DrillZone") && timeSinceLastDamaged >= canBeDamagedCooldown)

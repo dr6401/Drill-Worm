@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -22,5 +23,17 @@ public class LevelManager : MonoBehaviour
     {
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0 : 1;
+    }
+
+    private void OnEnable()
+    {
+        GameEvents.OnUpgradesOffered +=  TogglePauseGame;
+        GameEvents.OnUpgradeChosen +=  TogglePauseGame;
+    }
+    
+    private void OnDisable()
+    {
+        GameEvents.OnUpgradesOffered -=  TogglePauseGame;
+        GameEvents.OnUpgradeChosen -=  TogglePauseGame;
     }
 }
