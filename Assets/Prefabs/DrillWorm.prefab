@@ -31,6 +31,7 @@ Transform:
   m_Children:
   - {fileID: 5862969301869758842}
   - {fileID: 4564116386861996579}
+  - {fileID: 5325934709332323978}
   m_Father: {fileID: 3554082928872256050}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1721997321218549978
@@ -241,7 +242,7 @@ Transform:
   m_GameObject: {fileID: 2823929478934872475}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.021, y: -1.53, z: 0}
+  m_LocalPosition: {x: 0.021, y: -2.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -316,6 +317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3554082928872256050}
   - component: {fileID: 4617737787753090231}
+  - component: {fileID: 912986175194647763}
   m_Layer: 0
   m_Name: DrillWorm
   m_TagString: Untagged
@@ -337,7 +339,6 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8769586469335833864}
-  - {fileID: 5325934709332323978}
   - {fileID: 4393733783912064208}
   - {fileID: 7219212032926855066}
   m_Father: {fileID: 0}
@@ -354,7 +355,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc52d5734d380240af698cf0203a2f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movement
-  moveSpeed: 5
+  maxMoveSpeed: 5
+  acceleration: 15
+--- !u!114 &912986175194647763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3984132285603789673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e373bb78f2356243b6476d1e4e72927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WormAnimation
+  headTransform: {fileID: 5862969301869758842}
+  bodyPartsFolder: {fileID: 4393733783912064208}
+  tailTransform: {fileID: 7219212032926855066}
+  segmentDistance: 0.5
 --- !u!1 &4593350164264528247
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,7 +399,7 @@ Transform:
   m_GameObject: {fileID: 4593350164264528247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.044, y: 0.269, z: 0}
+  m_LocalPosition: {x: -0.044, y: -0.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -730,7 +748,7 @@ GameObject:
   - component: {fileID: 5325934709332323978}
   m_Layer: 0
   m_Name: Drill
-  m_TagString: Untagged
+  m_TagString: SegmentsFolder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -743,15 +761,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6182455057194747206}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.044, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5095843956087241783}
   - {fileID: 1525837461451068553}
   - {fileID: 5235819480091348959}
-  m_Father: {fileID: 3554082928872256050}
+  m_Father: {fileID: 8769586469335833864}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6352206120961932472
 GameObject:
@@ -1037,7 +1055,7 @@ GameObject:
   - component: {fileID: 3118599089954311237}
   m_Layer: 0
   m_Name: MainBody
-  m_TagString: Untagged
+  m_TagString: SegmentsFolder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,7 +1181,7 @@ GameObject:
   - component: {fileID: 4393733783912064208}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: SegmentsFolder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

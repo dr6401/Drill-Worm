@@ -16,11 +16,13 @@ public class Movement : MonoBehaviour
     private float maxRotationSpeed = 360;
     private float rotationOffset = 270;
 
+    private WormAnimation wormAnimation;
     private Camera cam;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
         headTransform = GameObject.FindGameObjectWithTag("Head").transform;
+        wormAnimation = gameObject.GetComponent<WormAnimation>();
         cam = Camera.main;
     }
 
@@ -50,6 +52,7 @@ public class Movement : MonoBehaviour
         }*/
         Move();
         Rotate();
+        wormAnimation.AnimateBody();
     }
 
     void Move()
