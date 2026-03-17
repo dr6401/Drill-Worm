@@ -25,7 +25,7 @@ public class UpgradesSelectionUI : MonoBehaviour
 
     private bool hasSettingsCoveredUpAugmentUI;
     
-    private static AugmentSelectionUI instance;
+    private static UpgradesSelectionUI instance;
 
     private void Awake()
     {
@@ -96,7 +96,7 @@ public class UpgradesSelectionUI : MonoBehaviour
         {
             Debug.Log("Given you the choice: " + choice.augmentName);
             var btnObj = Instantiate(augmentButtonPrefab, buttonParent);
-            var btnObjScript = btnObj.GetComponent<AugmentButton>();
+            var btnObjScript = btnObj.GetComponent<UpgradeButton>();
             btnObjScript.Setup(choice, player, this);
         }
         GameEvents.OnUpgradesOffered?.Invoke();

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class AugmentButton : MonoBehaviour
+public class UpgradeButton : MonoBehaviour
 {
     [SerializeField] private TMP_Text augmentName;
     [SerializeField] private TMP_Text augmentDescription;
