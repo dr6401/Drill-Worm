@@ -6,17 +6,25 @@ public class WormAnimation : MonoBehaviour
     [Header("Transforms")]
     [SerializeField] Transform headTransform;
     [SerializeField] private Transform bodyPartsFolder;
+    [SerializeField] private GameObject bodyPartPrefab;
     [SerializeField] Transform tailTransform;
     private List<Transform> segments = new List<Transform>();
     //[SerializeField] Transform tailBodyPartTransform;
 
-    [Header("Parameters")] public float segmentDistance = 0.5f;
+    [Header("Parameters")]
+    public float segmentDistance = 0.5f;
+    public int numberOfBodyPartsToInstantiate = 20;
         
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         segments.Add(headTransform);
-        segments.AddRange(bodyPartsFolder.GetComponentsInChildren<Transform>());
+        //segments.AddRange(bodyPartsFolder.GetComponentsInChildren<Transform>());
+        for (int i = 0; i < numberOfBodyPartsToInstantiate; i++)
+        {
+            GameObject bodyPart = Instantiate(bodyPartPrefab, bodyPartsFolder.position, Quaternion.identity, bodyPartsFolder);
+            segments.Add(bodyPart.transform);
+        }
         segments.Add(tailTransform);
         segments.RemoveAll(seg => seg.CompareTag("SegmentsFolder"));
         foreach (Transform transform in segments)
