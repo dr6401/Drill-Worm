@@ -221,6 +221,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.199999
@@ -265,6 +281,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -287,6 +311,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.86
@@ -331,6 +371,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -353,6 +401,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.940001
@@ -397,6 +461,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -419,6 +491,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.269999
@@ -463,6 +551,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -485,6 +581,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.9
@@ -529,6 +641,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -551,6 +671,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.269999
@@ -594,6 +730,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -683,6 +827,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.890001
@@ -727,6 +887,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -749,6 +917,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.94000244
@@ -793,6 +977,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -815,6 +1007,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7700005
@@ -858,6 +1066,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -956,6 +1172,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.86
@@ -1000,6 +1232,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1022,6 +1262,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.83
@@ -1066,6 +1322,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1080,6 +1344,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
   m_PrefabInstance: {fileID: 402667256}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &406823127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+  m_PrefabInstance: {fileID: 720681393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &428837089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1088,6 +1357,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.75
@@ -1132,6 +1417,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1154,6 +1447,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7700005
@@ -1198,6 +1507,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1220,6 +1537,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.2000008
@@ -1264,6 +1597,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1286,6 +1627,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.81
@@ -1330,6 +1687,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1352,6 +1717,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.859999
@@ -1396,6 +1777,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1418,6 +1807,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.23
@@ -1461,6 +1866,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -1568,6 +1981,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.490002
@@ -1611,6 +2040,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -1709,6 +2146,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.27
@@ -1752,6 +2205,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -1797,8 +2258,80 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1120719765}
+  - {fileID: 1436165411}
+  - {fileID: 749712849}
+  - {fileID: 1890208370}
+  - {fileID: 1538715668}
+  - {fileID: 406823127}
+  - {fileID: 926545640}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &720681393
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 696341483}
+    m_Modifications:
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806563878027742236, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_Name
+      value: Animal (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149074736613253772, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: knockbackForce
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd166cdf13d674349886019354412eb6, type: 3}
+--- !u!4 &749712849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+  m_PrefabInstance: {fileID: 1144967773}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &758338866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,6 +2415,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.23
@@ -1926,6 +2475,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -1948,6 +2505,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.220001
@@ -1992,6 +2565,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -2005,6 +2586,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
   m_PrefabInstance: {fileID: 907069664}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &926545640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+  m_PrefabInstance: {fileID: 1242546660}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &934292608
 PrefabInstance:
@@ -2080,6 +2666,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.719999
@@ -2124,6 +2726,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -2146,6 +2756,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.25
@@ -2189,6 +2815,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -2248,6 +2882,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.75
@@ -2291,6 +2941,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -2509,6 +3167,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.83
@@ -2553,6 +3227,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -2575,6 +3257,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.06
@@ -2618,6 +3316,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -2682,6 +3388,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.089998
@@ -2726,6 +3448,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -2748,6 +3478,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.1299992
@@ -2791,6 +3537,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -3061,6 +3815,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.18
@@ -3105,6 +3875,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -3127,6 +3905,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.739998
@@ -3171,6 +3965,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -3185,6 +3987,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
   m_PrefabInstance: {fileID: 1140382758}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1144967773
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 696341483}
+    m_Modifications:
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806563878027742236, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_Name
+      value: Animal (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149074736613253772, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: knockbackForce
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd166cdf13d674349886019354412eb6, type: 3}
 --- !u!1001 &1147341505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3193,6 +4056,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.200001
@@ -3236,6 +4115,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -3287,6 +4174,67 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1178707531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 696341483}
+    m_Modifications:
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806563878027742236, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_Name
+      value: Animal (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149074736613253772, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: knockbackForce
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd166cdf13d674349886019354412eb6, type: 3}
 --- !u!1001 &1179905726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3361,6 +4309,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.200001
@@ -3405,6 +4369,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -3419,6 +4391,128 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
   m_PrefabInstance: {fileID: 1240495149}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1242546660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 696341483}
+    m_Modifications:
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806563878027742236, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_Name
+      value: Animal (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149074736613253772, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: knockbackForce
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd166cdf13d674349886019354412eb6, type: 3}
+--- !u!1001 &1267253850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 696341483}
+    m_Modifications:
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806563878027742236, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_Name
+      value: Animal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149074736613253772, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: knockbackForce
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd166cdf13d674349886019354412eb6, type: 3}
 --- !u!1001 &1271887738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3537,6 +4631,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.73
@@ -3580,6 +4690,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -3748,6 +4866,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.519999
@@ -3792,6 +4926,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -3814,6 +4956,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.88
@@ -3858,6 +5016,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -3880,6 +5046,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.93
@@ -3924,6 +5106,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -3946,6 +5136,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.189999
@@ -3989,6 +5195,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -6331,6 +7545,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.75
@@ -6375,6 +7605,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -6397,6 +7635,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.15
@@ -6441,6 +7695,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -6455,6 +7717,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
   m_PrefabInstance: {fileID: 1414731244}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1436165411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+  m_PrefabInstance: {fileID: 1267253850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1457679444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6463,6 +7730,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.940001
@@ -6507,6 +7790,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -6529,6 +7820,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.06
@@ -6572,6 +7879,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -6653,6 +7968,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1179795169916054329, guid: 3e1807bdcc1fa054090465960e0e309b, type: 3}
   m_PrefabInstance: {fileID: 1484685839}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1538715668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+  m_PrefabInstance: {fileID: 1178707531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1564971929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6661,6 +7981,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7700005
@@ -6705,6 +8041,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -6727,6 +8071,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.460001
@@ -6771,6 +8131,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -6793,6 +8161,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.42
@@ -6837,6 +8221,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -6859,6 +8251,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.15
@@ -6902,6 +8310,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -7128,6 +8544,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.890001
@@ -7172,6 +8604,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -7194,6 +8634,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.06
@@ -7238,6 +8694,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -7260,6 +8724,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.81
@@ -7304,6 +8784,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -7326,6 +8814,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.890001
@@ -7369,6 +8873,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -7563,6 +9075,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.83
@@ -7607,6 +9135,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -7629,6 +9165,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.81
@@ -7673,6 +9225,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -7695,6 +9255,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5100021
@@ -7738,6 +9314,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -7888,7 +9472,6 @@ MonoBehaviour:
   levelManager: {fileID: 0}
   silverAugments:
   - {fileID: 11400000, guid: 46fc8b6c58fa83b488cfa2031bd58861, type: 2}
-  - {fileID: 11400000, guid: 5c118cbc3e96b6d458bdc6cb89b4da38, type: 2}
   goldAugments: []
   prismaticAugments: []
   numberOfChoices: 3
@@ -7903,6 +9486,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.8
@@ -7946,6 +9545,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -8198,6 +9805,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1179795169916054329, guid: 3e1807bdcc1fa054090465960e0e309b, type: 3}
   m_PrefabInstance: {fileID: 1877616572}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1888107849
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 696341483}
+    m_Modifications:
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806563878027742236, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: m_Name
+      value: Animal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149074736613253772, guid: fd166cdf13d674349886019354412eb6, type: 3}
+      propertyPath: knockbackForce
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd166cdf13d674349886019354412eb6, type: 3}
+--- !u!4 &1890208370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2103392188496741462, guid: fd166cdf13d674349886019354412eb6, type: 3}
+  m_PrefabInstance: {fileID: 1888107849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1893562389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8206,6 +9879,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.88
@@ -8249,6 +9938,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -8337,6 +10034,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.940001
@@ -8381,6 +10094,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -8403,6 +10124,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.15
@@ -8447,6 +10184,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -8469,6 +10214,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.189999
@@ -8513,6 +10274,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -8535,6 +10304,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.169998
@@ -8578,6 +10363,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -8676,6 +10469,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.86
@@ -8720,6 +10529,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -8742,6 +10559,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.72
@@ -8786,6 +10619,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -8808,6 +10649,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5599995
@@ -8852,6 +10709,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
       value: 3
@@ -8874,6 +10739,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.189999
@@ -8917,6 +10798,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp
@@ -9063,6 +10952,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 18743804}
     m_Modifications:
+    - target: {fileID: 1826109172168688422, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876667123443621291, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179143164556334074, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029344041384829822, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5601656333359470216, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.86
@@ -9106,6 +11011,14 @@ PrefabInstance:
     - target: {fileID: 7186813096340549375, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: m_Name
       value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223461539023458472, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566848151804257297, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690439615742088467, guid: f8e1e068f1a32c64b985797a8d037a74, type: 3}
       propertyPath: maxHp

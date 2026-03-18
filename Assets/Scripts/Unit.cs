@@ -1,25 +1,43 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Unit : MonoBehaviour
 {
+    [Header("HP")]
     public int hp ;
     public int maxHp;
-    public float knockbackForce;
     
+    [Header("On Damage")]
+    public float knockbackForce;
+    [Header("On Death")]
     [SerializeField] private GameObject foodSpawnPrefab;
-    private float randomFoodSpawnOffset = 2f;
+    private float randomFoodSpawnOffset = 0.25f;
+
+    [Header("Health Bar")]
+    [SerializeField] private bool displayHealthBar = true;
+    [SerializeField] private GameObject hpBar;
+    [SerializeField] private Image hpFillBar;
+    private Vector3 hpBarOffset = new Vector3(0f, 1f, 0f);
 
     private float canBeDamagedCooldown = 0.5f;
-    public float timeSinceLastDamaged; 
+    private float timeSinceLastDamaged; 
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Start()
     {
         hp = maxHp;
+        hpBar.SetActive(false);
     }
     protected virtual void Update()
     {
         timeSinceLastDamaged += Time.deltaTime;
+        if (hpBar.activeSelf)
+        {
+            Vector3 worldPos = transform.position + hpBarOffset;
+            //Vector3 screenPost = Camera.main.WorldToScreenPoint(worldPos);
+            //hpBar.transform.position = transform.position + screenPost;
+            hpBar.transform.position = worldPos;
+        }
     }
     
     protected virtual void TakeDamage(int damage)
@@ -30,6 +48,7 @@ public class Unit : MonoBehaviour
             GetDestroyed();
             return;
         }
+        UpdateHealthBar();
         Movement.Instance.GetKnockedBack(transform.position, knockbackForce);
     }
 
@@ -42,6 +61,15 @@ public class Unit : MonoBehaviour
         );
         Instantiate(foodSpawnPrefab, transform.position + offset, Quaternion.identity);
         Destroy(gameObject);
+    }
+
+    protected void UpdateHealthBar()
+    {
+        if (displayHealthBar)
+        {
+            hpBar.SetActive(true);
+            hpFillBar.fillAmount = (float)hp / maxHp;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)

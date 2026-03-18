@@ -42,10 +42,14 @@ public class Ore : Unit
                 Debug.Log($"HealthRatio was under threshold ({threshold}), enabling cracks at {i}");
             }
         }
-
+        UpdateHealthBar();
         if (hp <= 0)
         {
             base.GetDestroyed();
+        }
+        else
+        {
+            Movement.Instance.GetKnockedBack(transform.position, knockbackForce);
         }
     }
 }
