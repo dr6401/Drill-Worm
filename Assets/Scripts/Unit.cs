@@ -17,7 +17,7 @@ public class Unit : MonoBehaviour
     {
         hp = maxHp;
     }
-    private void Update()
+    protected virtual void Update()
     {
         timeSinceLastDamaged += Time.deltaTime;
     }
