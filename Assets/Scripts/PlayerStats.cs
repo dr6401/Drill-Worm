@@ -44,10 +44,10 @@ public class PlayerStats : MonoBehaviour
         {
             Consume(1);
         }*/
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        /*if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             TakeDamage(1);
-        }
+        }*/
     }
 
     public void Consume(int xpAmount)

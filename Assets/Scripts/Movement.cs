@@ -62,12 +62,12 @@ public class Movement : MonoBehaviour
         worldPosition = cam.ScreenToWorldPoint(mousePosition);
         worldPosition.z = 0;
 
-        if (Mouse.current.rightButton.isPressed && timeSinceLastDash >= dashCooldown)
+        if (Keyboard.current.spaceKey.isPressed && timeSinceLastDash >= dashCooldown)
         {
             Dash();
         }
 
-        if ((Mouse.current.rightButton.wasReleasedThisFrame || currentDashingTime >= maxDashingTime) && isDashing)
+        if ((Keyboard.current.spaceKey.wasReleasedThisFrame || currentDashingTime >= maxDashingTime) && isDashing)
         {
             EndDash();
         }

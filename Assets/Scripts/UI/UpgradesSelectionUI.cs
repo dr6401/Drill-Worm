@@ -143,7 +143,17 @@ public class UpgradesSelectionUI : MonoBehaviour
     public void CloseUI()
     {
         canvasGroup.alpha = 0f;
+        RemoveUpgradeCardsFromUpgradePanel();
         gameObject.SetActive(false);
+    }
+
+    private void RemoveUpgradeCardsFromUpgradePanel()
+    {
+        foreach (Transform upgradeCard in buttonParent.gameObject.GetComponentsInChildren<Transform>(true))
+        {
+            if (upgradeCard == buttonParent.gameObject.transform) continue;
+            Destroy(upgradeCard.gameObject);
+        }
     }
 
     // Update is called once per frame
