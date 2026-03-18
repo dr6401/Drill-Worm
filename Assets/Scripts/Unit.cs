@@ -37,6 +37,7 @@ public class Unit : MonoBehaviour
             //Vector3 screenPost = Camera.main.WorldToScreenPoint(worldPos);
             //hpBar.transform.position = transform.position + screenPost;
             hpBar.transform.position = worldPos;
+            hpBar.transform.rotation = Quaternion.identity;
         }
     }
     

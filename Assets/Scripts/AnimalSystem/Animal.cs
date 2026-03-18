@@ -26,7 +26,7 @@ public class Animal : Unit
     protected override void Start()
     {
         base.Start();
-        SetState(new IdleState());
+        SetState(new WanderState());
     }
 
     protected override void Update()
@@ -45,6 +45,21 @@ public class Animal : Unit
             GetTargetPosition(),
             moveSpeed * Time.deltaTime
         );
+        
+        // Rotation
+        Vector3 direction = GetTargetPosition() - transform.position;
+        if (direction.magnitude > 0.01f) // Prevent jittering
+        {
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            angle -= 90.0f; // Offset sprite rotation
+            Quaternion targetRotation = Quaternion.Euler(0f, 0f, angle);
+
+            transform.rotation = Quaternion.RotateTowards(
+                transform.rotation,
+                targetRotation,
+                360 * Time.deltaTime
+            );
+        }
     }
 
     private Vector3 GetTargetPosition()
