@@ -3,24 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Ore : MonoBehaviour
+public class Ore : Unit
 {
-    public int currentHealth = 2;
-    public int maxHealth = 3;
-    public float knockbackForce = 10f;
-
     [SerializeField] private Transform crackFoldersRoot;
     [SerializeField] private Transform[] crackFolders;
-
-    [SerializeField] private GameObject foodSpawnPrefab;
-    private float randomSpawnOffset = 2f;
-
-    private float canBeDamagedCooldown = 0.5f;
-    public float timeSinceLastDamaged; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override void Start()
     {
-        currentHealth = maxHealth;
+        base.Start();
 
         crackFolders = new Transform[crackFoldersRoot.childCount];
         for (int i = 0; i < crackFoldersRoot.childCount; i++)
@@ -35,52 +25,27 @@ public class Ore : MonoBehaviour
         }
     }
 
-    private void Update()
+    protected override void TakeDamage(int damage)
     {
-        timeSinceLastDamaged += Time.deltaTime;
-    }
+        hp -= damage;
 
-    private void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-
-        float healthRatio = (float)currentHealth / maxHealth;
+        float healthRatio = (float)hp / maxHp;
         int totalFolders = crackFolders.Length;
 
         for (int i = 0; i < totalFolders; i++)
         {
+            Debug.Log($"healthRatio: {healthRatio}");
             float threshold = 1f - ((float)i / totalFolders);
             if (healthRatio <= threshold)
             {
                 crackFolders[i].gameObject.SetActive(true);
+                Debug.Log($"HealthRatio was under threshold ({threshold}), enabling cracks at {i}");
             }
         }
-        
-        if (currentHealth <= 0)
-        {
-            GetDestroyed();
-        }
-    }
 
-    private void GetDestroyed()
-    {
-        Vector3 offset = new Vector3(
-            UnityEngine.Random.Range(-randomSpawnOffset, randomSpawnOffset),
-            UnityEngine.Random.Range(-randomSpawnOffset, randomSpawnOffset),
-            0
-        );
-        Instantiate(foodSpawnPrefab, transform.position + offset, Quaternion.identity);
-        Destroy(gameObject);
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        //Debug.Log($"Collided with {other.gameObject.name}");
-        if (other.CompareTag("DrillZone") && timeSinceLastDamaged >= canBeDamagedCooldown)
+        if (hp <= 0)
         {
-            Movement.Instance.GetKnockedBack(transform.position, knockbackForce);
-            TakeDamage(PlayerStats.Instance.drillDamage);
-            timeSinceLastDamaged = 0;
+            base.GetDestroyed();
         }
     }
 }

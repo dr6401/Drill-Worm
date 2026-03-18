@@ -466,7 +466,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.29636872, g: 0.8490566, b: 0.5198805, a: 1}
@@ -1319,7 +1319,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.29636872, g: 0.8490566, b: 0.5198805, a: 1}
@@ -1501,7 +1501,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.29636872, g: 0.8490566, b: 0.5198805, a: 1}
@@ -1665,13 +1665,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8674b382a69d38439ff9aad7012436f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ore
-  currentHealth: 2
-  maxHealth: 3
+  hp: 0
+  maxHp: 0
   knockbackForce: 10
-  crackFoldersRoot: {fileID: 7383583586464280950}
-  crackFolders: []
   foodSpawnPrefab: {fileID: 3079769469809919262, guid: 3e1807bdcc1fa054090465960e0e309b, type: 3}
   timeSinceLastDamaged: 0
+  crackFoldersRoot: {fileID: 7383583586464280950}
+  crackFolders: []
 --- !u!1 &7255645606442695865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,7 +2024,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.29636872, g: 0.8490566, b: 0.5198805, a: 1}
