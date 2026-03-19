@@ -9,7 +9,7 @@ public class WormAnimation : MonoBehaviour
     [SerializeField] private Transform bodyPartsFolder;
     [SerializeField] private GameObject bodyPartPrefab;
     [SerializeField] Transform tailTransform;
-    private List<Transform> segments = new List<Transform>();
+    public List<Transform> segments = new List<Transform>();
     //[SerializeField] Transform tailBodyPartTransform;
 
     [Header("Parameters")]
