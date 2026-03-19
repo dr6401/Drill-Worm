@@ -15,7 +15,7 @@ MonoBehaviour:
   augmentName: Speedster
   description: Gain +10% Move Speed
   icon: {fileID: 21300000, guid: 43f6e8b0b0d8e4344baafad16e020839, type: 3}
-  color: {r: 0, g: 0.45630193, b: 1, a: 1}
+  color: {r: 0.54901963, g: 1, b: 0, a: 1}
   tier: 0
   category: 1
   moveSpeedIncreaseMultiplier: 1.1

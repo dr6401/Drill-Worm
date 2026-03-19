@@ -15,7 +15,7 @@ MonoBehaviour:
   augmentName: Subterranean Speed
   description: Gain +25% Move Speed
   icon: {fileID: 21300000, guid: 8c10a38753c0a15499847f347e9c6a3f, type: 3}
-  color: {r: 0, g: 0.62211084, b: 1, a: 1}
-  tier: 0
+  color: {r: 0, g: 0.6323924, b: 1, a: 1}
+  tier: 1
   category: 1
   moveSpeedIncreaseMultiplier: 1.25

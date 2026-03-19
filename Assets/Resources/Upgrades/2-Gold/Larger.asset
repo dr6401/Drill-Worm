@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6253833b6e7ab8f44867aedd3bd7c699, type: 3}
-  m_Name: Baby Growth
+  m_Name: Larger
   m_EditorClassIdentifier: Assembly-CSharp::GrowUp
-  augmentName: Baby Growth
-  description: +3 Length
+  augmentName: Larger
+  description: +5 Length
   icon: {fileID: 21300000, guid: ba1ecabe5cec3bb43b16782dabc8c288, type: 3}
-  color: {r: 0.54901963, g: 1, b: 0, a: 1}
+  color: {r: 0, g: 0.6313726, b: 1, a: 1}
   tier: 0
   category: 4
-  numberOfBodySegments: 3
+  numberOfBodySegments: 5
