@@ -12,7 +12,8 @@ public class Movement : MonoBehaviour
     [Header("Speed")]
     public float currentSpeed;
     public float moveSpeed = 5f;
-    private float originalMoveSpeed;
+    public float normalMoveSpeed;
+    public float originalMoveSpeed;
     public float acceleration = 15f;
     private float slowRadius = 1f;
     
@@ -51,6 +52,7 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
+        normalMoveSpeed = moveSpeed;
         originalMoveSpeed = moveSpeed;
     }
 
@@ -109,7 +111,7 @@ public class Movement : MonoBehaviour
     private void Dash()
     {
         isDashing = true;
-        moveSpeed = originalMoveSpeed * dashMoveSpeedIncreaseMultiplier;
+        moveSpeed = normalMoveSpeed * dashMoveSpeedIncreaseMultiplier;
         currentDashingTime += Time.deltaTime;
     }
 
@@ -118,7 +120,7 @@ public class Movement : MonoBehaviour
         currentDashingTime = 0;
         timeSinceLastDash = 0;
         isDashing = false;
-        moveSpeed = originalMoveSpeed;
+        moveSpeed = normalMoveSpeed;
     }
 
     public void GetKnockedBack(Vector2 sourcePosition, float force)

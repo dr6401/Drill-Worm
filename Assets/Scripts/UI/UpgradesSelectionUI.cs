@@ -37,6 +37,10 @@ public class UpgradesSelectionUI : MonoBehaviour
         {
             Instance = this;
         }
+
+        silverAugments = new List<Augment>(Resources.LoadAll<Augment>("Upgrades/1-Silver"));
+        goldAugments = new List<Augment>(Resources.LoadAll<Augment>("Upgrades/2-Gold"));
+        prismaticAugments = new List<Augment>(Resources.LoadAll<Augment>("Upgrades/3-Prismatic"));
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

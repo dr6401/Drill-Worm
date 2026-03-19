@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8254c3b4cf5ddb74d84eba34fa8452dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a4c2832142e417b934a7216a82c5d99, type: 3}
   m_Name: Speedster
-  m_EditorClassIdentifier: Assembly-CSharp::DrillDriller
+  m_EditorClassIdentifier: 
   augmentName: Speedster
-  description: Increase Move Speed by 10%
-  icon: {fileID: 21300000, guid: 76659bb7b5355194abe1714e05cc2904, type: 3}
-  color: {r: 0.9194449, g: 1, b: 0, a: 1}
+  description: Gain +10% Move Speed
+  icon: {fileID: 21300000, guid: 43f6e8b0b0d8e4344baafad16e020839, type: 3}
+  color: {r: 0, g: 0.45630193, b: 1, a: 1}
   tier: 0
-  category: 0
+  category: 1
+  moveSpeedIncreaseMultiplier: 1.1
