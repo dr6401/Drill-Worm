@@ -14,6 +14,8 @@ public class Animal : Unit
     private bool hasTarget = false;
     private bool useTransformTarget = false;
 
+    public Transform transformToMove;
+
     private IState currentState;
 
     public void SetState(IState state)
@@ -26,6 +28,7 @@ public class Animal : Unit
     protected override void Start()
     {
         base.Start();
+        if (transformToMove == null) transformToMove = transform;
         SetState(new WanderState());
     }
 
@@ -40,22 +43,22 @@ public class Animal : Unit
     {
         if (!hasTarget) return;
 
-        transform.position = Vector3.MoveTowards(
-            transform.position,
+        transformToMove.position = Vector3.MoveTowards(
+            transformToMove.position,
             GetTargetPosition(),
             moveSpeed * Time.deltaTime
         );
         
         // Rotation
-        Vector3 direction = GetTargetPosition() - transform.position;
+        Vector3 direction = GetTargetPosition() - transformToMove.position;
         if (direction.magnitude > 0.01f) // Prevent jittering
         {
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             angle -= 90.0f; // Offset sprite rotation
             Quaternion targetRotation = Quaternion.Euler(0f, 0f, angle);
 
-            transform.rotation = Quaternion.RotateTowards(
-                transform.rotation,
+            transformToMove.rotation = Quaternion.RotateTowards(
+                transformToMove.rotation,
                 targetRotation,
                 360 * Time.deltaTime
             );
@@ -90,9 +93,9 @@ public class Animal : Unit
         if (!hasTarget) return Mathf.Infinity;
         if (useTransformTarget && targetPosition != null)
         {
-            return Vector3.Distance(transform.position, targetPosition.position);
+            return Vector3.Distance(transformToMove.position, targetPosition.position);
         }
-        return Vector3.Distance(transform.position, moveTarget);
+        return Vector3.Distance(transformToMove.position, moveTarget);
     }
 
     public bool IsTargetInRange(float range)

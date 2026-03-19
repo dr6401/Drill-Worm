@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class WormAnimation : MonoBehaviour
@@ -19,6 +20,7 @@ public class WormAnimation : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (segments.Count > 0) return;
         segments.Add(headTransform);
         //segments.AddRange(bodyPartsFolder.GetComponentsInChildren<Transform>());
         for (int i = 0; i < numberOfBodyPartsToInstantiate; i++)
@@ -33,7 +35,12 @@ public class WormAnimation : MonoBehaviour
             Debug.Log($"Hey my name is {transform.name} and I'm position {segments.IndexOf(transform)} in the chain");
         }*/
     }
-    
+
+    private void Update()
+    {
+        AnimateBody();
+    }
+
 
     public void AnimateBody()
     {
@@ -56,6 +63,7 @@ public class WormAnimation : MonoBehaviour
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90;
             current.rotation = Quaternion.Euler(0, 0, angle);
         }
+        //Debug.Log($"{name}: Animating body");
     }
 
     public void ExtendBody(int bodyPartsCount)

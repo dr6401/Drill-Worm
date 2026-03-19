@@ -78,7 +78,7 @@ public class Movement : MonoBehaviour
         
         Move();
         Rotate();
-        wormAnimation.AnimateBody();
+        //wormAnimation.AnimateBody();
     }
 
     void Move()
