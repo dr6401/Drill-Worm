@@ -11,7 +11,8 @@ public enum AugmentCategory
     Drill,
     Speed,
     Hp,
-    Resistance
+    Resistance,
+    Size
 };
 
 public abstract class Augment : ScriptableObject

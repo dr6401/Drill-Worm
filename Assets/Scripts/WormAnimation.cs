@@ -58,19 +58,27 @@ public class WormAnimation : MonoBehaviour
         }
     }
 
-    private void ExtendBody()
+    public void ExtendBody(int bodyPartsCount)
     {
-        GameObject bodyPart = Instantiate(bodyPartPrefab, bodyPartsFolder.position, Quaternion.identity, bodyPartsFolder);
-        segments.Insert(segments.Count - 1, bodyPart.transform);
+        for (int i = 0; i < bodyPartsCount; i++)
+        {
+            GameObject bodyPart = Instantiate(bodyPartPrefab, bodyPartsFolder.position, Quaternion.identity, bodyPartsFolder);
+            segments.Insert(segments.Count - 1, bodyPart.transform);   
+        }
+    }
+
+    public void ExtendBodyOnLevelUp()
+    {
+        ExtendBody(1);
     }
 
     private void OnEnable()
     {
-        GameEvents.OnLevelUp += ExtendBody;
+        GameEvents.OnLevelUp += ExtendBodyOnLevelUp;
     }
     
     private void OnDisable()
     {
-        GameEvents.OnLevelUp -= ExtendBody;
+        GameEvents.OnLevelUp -= ExtendBodyOnLevelUp;
     }
 }
