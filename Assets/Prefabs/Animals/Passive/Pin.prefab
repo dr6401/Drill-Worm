@@ -162,7 +162,7 @@ MonoBehaviour:
   hp: 5
   maxHp: 10
   knockbackForce: 1
-  foodSpawnPrefab: {fileID: 3079769469809919262, guid: 3e1807bdcc1fa054090465960e0e309b, type: 3}
+  foodSpawnPrefab: {fileID: 1827901220691140108, guid: 20da4fda4c4df7d498edcc897830f26d, type: 3}
   displayHealthBar: 1
   hpBar: {fileID: 3649692348689936754}
   hpFillBar: {fileID: 424523768733240925}
