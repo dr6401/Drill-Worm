@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -55,5 +56,21 @@ public class WormAnimation : MonoBehaviour
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90;
             current.rotation = Quaternion.Euler(0, 0, angle);
         }
+    }
+
+    private void ExtendBody()
+    {
+        GameObject bodyPart = Instantiate(bodyPartPrefab, bodyPartsFolder.position, Quaternion.identity, bodyPartsFolder);
+        segments.Insert(segments.Count - 1, bodyPart.transform);
+    }
+
+    private void OnEnable()
+    {
+        GameEvents.OnLevelUp += ExtendBody;
+    }
+    
+    private void OnDisable()
+    {
+        GameEvents.OnLevelUp -= ExtendBody;
     }
 }
