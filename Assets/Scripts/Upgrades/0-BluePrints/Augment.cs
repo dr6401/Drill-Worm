@@ -23,6 +23,7 @@ public abstract class Augment : ScriptableObject
     public Color color;
     public AugmentTier tier;
     public AugmentCategory category;
+    public bool removeFromPoolAfterPicking = false;
     
     public abstract void Apply(GameObject player);
 }

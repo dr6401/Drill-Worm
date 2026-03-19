@@ -18,4 +18,5 @@ MonoBehaviour:
   color: {r: 0.54901963, g: 1, b: 0, a: 1}
   tier: 0
   category: 4
+  removeFromPoolAfterPicking: 0
   numberOfBodySegments: 3

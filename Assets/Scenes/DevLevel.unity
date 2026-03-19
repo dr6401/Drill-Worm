@@ -9666,8 +9666,7 @@ MonoBehaviour:
   buttonParent: {fileID: 298593250}
   augmentButtonPrefab: {fileID: 5052060621855390018, guid: e630816473e88c74ca54feba85da18e5, type: 3}
   levelManager: {fileID: 0}
-  silverAugments:
-  - {fileID: 11400000, guid: 46fc8b6c58fa83b488cfa2031bd58861, type: 2}
+  silverAugments: []
   goldAugments: []
   prismaticAugments: []
   numberOfChoices: 3

@@ -70,7 +70,7 @@ public class UpgradesSelectionUI : MonoBehaviour
     public void TriggerAugmentSelection(AugmentTier tier)
     {
         List<Augment> pool = testing_offerOnlyGoldAugments ? GetPoolByTier(AugmentTier.Gold) : GetPoolByTier(tier);// if we're testing, enable only silver augments
-        pool.RemoveAll(augment => runAugmentData.IsAugmentInChosenAugments(augment));
+        pool.RemoveAll(augment => runAugmentData.IsAugmentInChosenAugments(augment) && augment.removeFromPoolAfterPicking);
         Debug.Log(tier + " pool: " + string.Join(", ", pool.Select(a => a.augmentName)));
         List<Augment> choices = GetRandomAugments(pool, numberOfChoices);
         Debug.Log(tier + " choices: " + string.Join(", ", choices.Select(a => a.augmentName)));
