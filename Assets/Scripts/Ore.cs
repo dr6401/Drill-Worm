@@ -34,12 +34,12 @@ public class Ore : Unit
 
         for (int i = 0; i < totalFolders; i++)
         {
-            Debug.Log($"healthRatio: {healthRatio}");
+            //Debug.Log($"healthRatio: {healthRatio}");
             float threshold = 1f - ((float)i / totalFolders);
             if (healthRatio <= threshold)
             {
                 crackFolders[i].gameObject.SetActive(true);
-                Debug.Log($"HealthRatio was under threshold ({threshold}), enabling cracks at {i}");
+                //Debug.Log($"HealthRatio was under threshold ({threshold}), enabling cracks at {i}");
             }
         }
         UpdateHealthBar();

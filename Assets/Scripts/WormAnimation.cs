@@ -18,7 +18,7 @@ public class WormAnimation : MonoBehaviour
     public int numberOfBodyPartsToInstantiate = 20;
         
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         if (segments.Count > 0) return;
         segments.Add(headTransform);

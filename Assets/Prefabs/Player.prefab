@@ -144,9 +144,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1525837461451068553}
   - component: {fileID: 2826238966403897792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DrillLeft_0
-  m_TagString: Untagged
+  m_TagString: DrillZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -367,6 +367,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   currentSpeed: 0
   moveSpeed: 5
+  normalMoveSpeed: 0
+  originalMoveSpeed: 0
   acceleration: 15
   dashMoveSpeedIncreaseMultiplier: 2
   dashCooldown: 3
@@ -387,6 +389,7 @@ MonoBehaviour:
   bodyPartsFolder: {fileID: 4393733783912064208}
   bodyPartPrefab: {fileID: 6883334043645023949, guid: ca78e48a9a5c6c44292e59153ff5924a, type: 3}
   tailTransform: {fileID: 7219212032926855066}
+  segments: []
   segmentDistance: 0.25
   numberOfBodyPartsToInstantiate: 100
 --- !u!114 &6176502199102789199
@@ -556,9 +559,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5095843956087241783}
   - component: {fileID: 2678502948866705052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DrillMiddle_0
-  m_TagString: Untagged
+  m_TagString: DrillZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -647,7 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081394685521439102}
   - component: {fileID: 5835483645591694107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DrillZone
   m_TagString: DrillZone
   m_Icon: {fileID: 0}
@@ -716,9 +719,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5235819480091348959}
   - component: {fileID: 446206864547825369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DrillRight_0
-  m_TagString: Untagged
+  m_TagString: DrillZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

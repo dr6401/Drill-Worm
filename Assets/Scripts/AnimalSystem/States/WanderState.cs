@@ -13,7 +13,7 @@ public class WanderState : IState
         Vector2 randomDirection = Random.insideUnitCircle * Random.Range(minWanderRadius, maxWanderRadius);
         moveTarget = animal.transform.position + new Vector3(randomDirection.x, randomDirection.y);
         
-        animal.SetMoveTarget(moveTarget);
+        animal.SetMoveDestination(moveTarget);
         //Debug.Log($"Entering WanderState");
     }
 

@@ -16,6 +16,7 @@ public class Animal : Unit
 
     public Transform transformToMove;
 
+    private IAnimalBehaviour animalBehaviour;
     private IState currentState;
 
     public void SetState(IState state)
@@ -30,10 +31,12 @@ public class Animal : Unit
         base.Start();
         if (transformToMove == null) transformToMove = transform;
         SetState(new WanderState());
+        animalBehaviour = GetComponent<IAnimalBehaviour>();
     }
 
     protected override void Update()
     {
+        animalBehaviour?.Tick(this);
         base.Update();
         currentState?.Update(this);
         HandleMovement();
@@ -74,7 +77,7 @@ public class Animal : Unit
         return moveTarget;
     }
 
-    public void SetMoveTarget(Vector3 target)
+    public void SetMoveDestination(Vector3 target)
     {
         moveTarget = target;
         useTransformTarget = false;
@@ -101,5 +104,11 @@ public class Animal : Unit
     public bool IsTargetInRange(float range)
     {
         return DistanceToTarget() <= range;
+    }
+
+    public void SetStateIfNotCurrent(IState newState)
+    {
+        if (currentState?.GetType() == newState.GetType()) return;
+        SetState(newState);
     }
 }

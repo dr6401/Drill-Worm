@@ -3,6 +3,8 @@ using UnityEngine;
 public class ChaseState : IState
 {
     private Vector2 targetPos;
+    private float lookForTargetInterval = 0.25f;
+    private float timeSinceLookedForTarget;
     
     public void Enter(Animal animal)
     {
@@ -11,7 +13,12 @@ public class ChaseState : IState
 
     public void Update(Animal animal)
     {
-        // Move animal
+        timeSinceLookedForTarget += Time.deltaTime;
+        if (timeSinceLookedForTarget >= lookForTargetInterval)
+        {
+            Transform playerPos = PlayerStats.Instance.transform;
+            animal.SetTarget(playerPos);
+        }
         Debug.Log($"Updating ChaseState");
     }
 
