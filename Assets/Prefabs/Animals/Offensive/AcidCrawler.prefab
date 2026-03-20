@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4403266760214750641}
   - component: {fileID: 3834950980628552499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AttackZoneBg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4068379773904852677}
   - component: {fileID: 3877001505616982029}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AttackZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 990517750153046791}
   - component: {fileID: 8269765685571682499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AttackZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

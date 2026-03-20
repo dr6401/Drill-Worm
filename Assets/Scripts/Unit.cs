@@ -63,7 +63,9 @@ public class Unit : MonoBehaviour
         // Check for Collisions
         foreach (var col in colliders)
         {
-            if (col.IsTouchingLayers(LayerMask.GetMask("DrillZoneLayer")) && timeSinceLastDamaged >= canBeDamagedCooldown)
+            if (col.gameObject.layer != LayerMask.NameToLayer("AttackZoneIndicator") &&
+                col.IsTouchingLayers(LayerMask.GetMask("DrillZoneLayer"))
+                && timeSinceLastDamaged >= canBeDamagedCooldown)
             {
                 TakeDamage(PlayerStats.Instance.drillDamage, true);
                 timeSinceLastDamaged = 0;

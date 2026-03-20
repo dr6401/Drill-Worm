@@ -1,8 +1,6 @@
 using System;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Rendering.Universal;
 
 public class Movement : MonoBehaviour
 {
