@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 5862969301869758842}
   - component: {fileID: 7314966122124892636}
   - component: {fileID: 3215795576179640078}
+  - component: {fileID: 6859763853650543997}
   m_Layer: 0
   m_Name: HeadOutline_0
   m_TagString: Untagged
@@ -335,6 +336,25 @@ MonoBehaviour:
   currentHealth: 5
   maxHealth: 10
   drillDamage: 1
+--- !u!114 &6859763853650543997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2823929478934872475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e373bb78f2356243b6476d1e4e72927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WormAnimation
+  headTransform: {fileID: 5862969301869758842}
+  bodyPartsFolder: {fileID: 4393733783912064208}
+  bodyPartPrefab: {fileID: 6883334043645023949, guid: ca78e48a9a5c6c44292e59153ff5924a, type: 3}
+  tailTransform: {fileID: 7219212032926855066}
+  segments: []
+  segmentDistance: 0.25
+  numberOfBodyPartsToInstantiate: 100
 --- !u!1 &3984132285603789673
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +365,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3554082928872256050}
   - component: {fileID: 4617737787753090231}
-  - component: {fileID: 912986175194647763}
   - component: {fileID: 6176502199102789199}
   m_Layer: 0
   m_Name: Player
@@ -391,25 +410,6 @@ MonoBehaviour:
   dashMoveSpeedIncreaseMultiplier: 2
   dashCooldown: 3
   maxDashingTime: 2
---- !u!114 &912986175194647763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3984132285603789673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e373bb78f2356243b6476d1e4e72927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WormAnimation
-  headTransform: {fileID: 5862969301869758842}
-  bodyPartsFolder: {fileID: 4393733783912064208}
-  bodyPartPrefab: {fileID: 6883334043645023949, guid: ca78e48a9a5c6c44292e59153ff5924a, type: 3}
-  tailTransform: {fileID: 7219212032926855066}
-  segments: []
-  segmentDistance: 0.25
-  numberOfBodyPartsToInstantiate: 100
 --- !u!114 &6176502199102789199
 MonoBehaviour:
   m_ObjectHideFlags: 0

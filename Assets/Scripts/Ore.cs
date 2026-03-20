@@ -25,7 +25,7 @@ public class Ore : Unit
         }
     }
 
-    protected override void TakeDamage(int damage)
+    public override void TakeDamage(int damage, bool damagedFromPlayer)
     {
         hp -= damage;
 
@@ -49,7 +49,7 @@ public class Ore : Unit
         }
         else
         {
-            Movement.Instance.GetKnockedBack(transform.position, knockbackForce);
+            if (damagedFromPlayer) Movement.Instance.GetKnockedBack(transform.position, knockbackForce);
         }
     }
 }

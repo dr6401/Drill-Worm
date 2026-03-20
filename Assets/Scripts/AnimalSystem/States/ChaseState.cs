@@ -18,6 +18,12 @@ public class ChaseState : IState
         {
             Transform playerPos = PlayerStats.Instance.transform;
             animal.SetTarget(playerPos);
+            timeSinceLookedForTarget = 0;
+        }
+
+        if (animal.DistanceToTarget() <= animal.atkRange && !animal.IsAttackOnCooldown())
+        {
+            animal.SetStateIfNotCurrent(new AttackWindupState());
         }
         //Debug.Log($"Updating ChaseState");
     }

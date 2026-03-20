@@ -65,7 +65,7 @@ public class Unit : MonoBehaviour
         {
             if (col.IsTouchingLayers(LayerMask.GetMask("DrillZoneLayer")) && timeSinceLastDamaged >= canBeDamagedCooldown)
             {
-                TakeDamage(PlayerStats.Instance.drillDamage);
+                TakeDamage(PlayerStats.Instance.drillDamage, true);
                 timeSinceLastDamaged = 0;
             }
             // Else -> implement for enemy damaging
@@ -78,7 +78,7 @@ public class Unit : MonoBehaviour
         }
     }
     
-    protected virtual void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage, bool damagedFromPlayer)
     {
         hp -= damage;
         if (hp <= 0)
@@ -87,7 +87,7 @@ public class Unit : MonoBehaviour
             return;
         }
         UpdateHealthBar();
-        Movement.Instance.GetKnockedBack(transform.position, knockbackForce);
+        if (damagedFromPlayer) Movement.Instance.GetKnockedBack(transform.position, knockbackForce);
     }
 
     protected virtual void GetDestroyed()

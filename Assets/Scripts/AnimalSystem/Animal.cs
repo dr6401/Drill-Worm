@@ -1,13 +1,17 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Animal : Unit
 {
     public float moveSpeed;
     
-    public int atk;
-    public int atkRange;
-    public int atkCooldown;
+    [Header("Attack")]
+    public int atkDmg;
+    public float atkRange;
+    public float atkCooldown;
+    public float atkCooldownTimer;
+    public float attackWindupTime;
 
     public Vector3 moveTarget;
     public Transform targetPosition;
@@ -15,6 +19,8 @@ public class Animal : Unit
     private bool useTransformTarget = false;
 
     public Transform transformToMove;
+    
+    [SerializeField] private GameObject attackZoneIndicator;
 
     private IAnimalBehaviour animalBehaviour;
     private IState currentState;
@@ -32,6 +38,13 @@ public class Animal : Unit
         if (transformToMove == null) transformToMove = transform;
         SetState(new WanderState());
         animalBehaviour = GetComponent<IAnimalBehaviour>();
+        if (attackZoneIndicator != null)
+        {
+            Transform indicatorImage = attackZoneIndicator.GetComponent<Transform>();
+            Vector3 scale = indicatorImage.localScale;
+            scale.y = atkRange;
+            indicatorImage.localScale = scale;
+        }
     }
 
     protected override void Update()
@@ -40,6 +53,7 @@ public class Animal : Unit
         base.Update();
         currentState?.Update(this);
         HandleMovement();
+        atkCooldownTimer += Time.deltaTime;
     }
 
     private void HandleMovement()
@@ -110,5 +124,43 @@ public class Animal : Unit
     {
         if (currentState?.GetType() == newState.GetType()) return;
         SetState(newState);
+    }
+
+    public bool IsAttackOnCooldown()
+    {
+        return !(atkCooldownTimer >= atkCooldown);
+    }
+
+    public void ShowAttackZoneIndicator()
+    {
+        attackZoneIndicator?.SetActive(true);
+    }
+    public void HideAttackZoneIndicator()
+    {
+        attackZoneIndicator?.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!IsInState(new AttackExecuteState())) return;
+        if (atkCooldownTimer >= atkCooldown)
+        {
+            if (other.CompareTag("Head"))
+            {
+                PlayerStats.Instance.TakeDamage(atkDmg);
+                atkCooldownTimer = 0;   
+            }
+            else
+            {
+                other.TryGetComponent(out Unit unit);
+                unit?.TakeDamage(atkDmg, false);
+            }
+        }
+    }
+
+    public bool IsInState(IState state)
+    {
+        if (currentState != null && currentState.GetType() == state.GetType()) return true;
+        return false;
     }
 }

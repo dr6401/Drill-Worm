@@ -13,6 +13,7 @@ public class AgressiveBehaviour : IAnimalBehaviour
         
         float sqrDistance = (player.position - animal.transform.position).sqrMagnitude;
 
+        if (animal.IsInState(new AttackExecuteState()) || animal.IsInState(new AttackWindupState())) return;
         if (sqrDistance <= playerDetectionRange * playerDetectionRange)
         {
             animal.SetTarget(player);
@@ -26,7 +27,7 @@ public class AgressiveBehaviour : IAnimalBehaviour
         //Debug.Log($"Distance to player: {Mathf.Sqrt(sqrDistance)}");
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, playerDetectionRange);
@@ -37,6 +38,6 @@ public class AgressiveBehaviour : IAnimalBehaviour
         {
             Gizmos.color = Color.blue;
             Gizmos.DrawLine(transform.position, player.position);   
-        }*/
-    }
+        }
+    }*/
 }
