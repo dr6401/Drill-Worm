@@ -17,7 +17,7 @@ public class AgressiveBehaviour : IAnimalBehaviour
         {
             animal.SetTarget(player);
             animal.SetStateIfNotCurrent(new ChaseState());
-            Debug.Log($"Set state to ChaseState");
+            //Debug.Log($"Set state to ChaseState");
         }else if (sqrDistance >= chasingRange * chasingRange)
         {
             animal.SetStateIfNotCurrent(new WanderState());

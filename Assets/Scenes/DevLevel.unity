@@ -2632,7 +2632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &696341483
 Transform:
   m_ObjectHideFlags: 0
@@ -4198,6 +4198,10 @@ PrefabInstance:
     - target: {fileID: 2002276296901236626, guid: e8d5174ea08ebd048be532d552acba3f, type: 3}
       propertyPath: m_Name
       value: AcidCrawler
+      objectReference: {fileID: 0}
+    - target: {fileID: 4312217949407891264, guid: e8d5174ea08ebd048be532d552acba3f, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

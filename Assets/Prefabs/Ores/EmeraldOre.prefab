@@ -969,7 +969,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300080, guid: bb76618f4bae74c83b9d6654d0b2a47e, type: 3}
   m_Color: {r: 0.35768497, g: 0.6603774, b: 0.2761955, a: 1}
@@ -1039,6 +1039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8674b382a69d38439ff9aad7012436f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ore
+  animalObjectRoot: {fileID: 0}
   hp: 0
   maxHp: 7
   knockbackForce: 15

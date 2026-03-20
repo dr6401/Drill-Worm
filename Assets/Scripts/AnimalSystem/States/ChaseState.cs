@@ -3,7 +3,7 @@ using UnityEngine;
 public class ChaseState : IState
 {
     private Vector2 targetPos;
-    private float lookForTargetInterval = 0.25f;
+    private float lookForTargetInterval = 0.75f;
     private float timeSinceLookedForTarget;
     
     public void Enter(Animal animal)
