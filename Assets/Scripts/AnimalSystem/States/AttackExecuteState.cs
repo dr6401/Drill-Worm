@@ -13,6 +13,7 @@ public class AttackExecuteState : IState
     public void Enter(Animal animal)
     {
         attackTimer = 0;
+        //animal.atkCooldownTimer = 0;
         attackStartPosition = animal.transformToMove.position;
 
         Vector3 targetDirection = animal.transformToMove.up.normalized;

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     public int xpOnConsume;
+    public int hpOnConsume;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,6 +13,7 @@ public class Food : MonoBehaviour
         if (other.CompareTag("Head"))
         {
             PlayerStats.Instance.Consume(xpOnConsume);
+            PlayerStats.Instance.Heal(hpOnConsume);
             Destroy(gameObject);
         }
     }

@@ -149,6 +149,7 @@ public class Animal : Unit
             {
                 PlayerStats.Instance.TakeDamage(atkDmg);
                 atkCooldownTimer = 0;   
+                Debug.Log($"{name}: hit player");
             }
             else
             {

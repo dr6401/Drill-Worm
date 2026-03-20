@@ -8,7 +8,7 @@ public class ChaseState : IState
     
     public void Enter(Animal animal)
     {
-        Debug.Log($"Entered ChaseState");
+        //Debug.Log($"Entered ChaseState");
     }
 
     public void Update(Animal animal)
@@ -30,6 +30,6 @@ public class ChaseState : IState
 
     public void Exit(Animal animal)
     {
-        Debug.Log($"Exited ChaseState");
+        //Debug.Log($"Exited ChaseState");
     }
 }
