@@ -9,9 +9,9 @@ public class Animal : Unit
     public int atkRange;
     public int atkCooldown;
 
-    private Vector3 moveTarget;
-    private Transform targetPosition;
-    private bool hasTarget = false;
+    public Vector3 moveTarget;
+    public Transform targetPosition;
+    public bool hasTarget = false;
     private bool useTransformTarget = false;
 
     public Transform transformToMove;

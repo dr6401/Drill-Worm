@@ -235,6 +235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5862969301869758842}
   - component: {fileID: 7314966122124892636}
+  - component: {fileID: 3215795576179640078}
   m_Layer: 0
   m_Name: HeadOutline_0
   m_TagString: Untagged
@@ -316,6 +317,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &3215795576179640078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2823929478934872475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401c13edefe597e4b8d20b6ebb3d51dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  currentLevel: 1
+  currentExperience: 0
+  xpUntilLevelUp: 10
+  currentHealth: 5
+  maxHealth: 10
+  drillDamage: 1
 --- !u!1 &3984132285603789673
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +347,6 @@ GameObject:
   - component: {fileID: 4617737787753090231}
   - component: {fileID: 912986175194647763}
   - component: {fileID: 6176502199102789199}
-  - component: {fileID: 4452280790137192948}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -405,24 +423,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotateDrill
   drillMiddle: {fileID: 5095843956087241783}
---- !u!114 &4452280790137192948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3984132285603789673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 401c13edefe597e4b8d20b6ebb3d51dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  currentLevel: 1
-  currentExperience: 0
-  xpUntilLevelUp: 10
-  currentHealth: 5
-  maxHealth: 10
-  drillDamage: 1
 --- !u!1 &4593350164264528247
 GameObject:
   m_ObjectHideFlags: 0

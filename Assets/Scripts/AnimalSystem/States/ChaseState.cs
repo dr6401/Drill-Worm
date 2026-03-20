@@ -19,7 +19,7 @@ public class ChaseState : IState
             Transform playerPos = PlayerStats.Instance.transform;
             animal.SetTarget(playerPos);
         }
-        Debug.Log($"Updating ChaseState");
+        //Debug.Log($"Updating ChaseState");
     }
 
     public void Exit(Animal animal)

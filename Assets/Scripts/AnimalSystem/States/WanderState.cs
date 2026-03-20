@@ -14,7 +14,7 @@ public class WanderState : IState
         moveTarget = animal.transform.position + new Vector3(randomDirection.x, randomDirection.y);
         
         animal.SetMoveDestination(moveTarget);
-        //Debug.Log($"Entering WanderState");
+        Debug.Log($"Entering WanderState, target: {moveTarget}");
     }
 
     public void Update(Animal animal)
