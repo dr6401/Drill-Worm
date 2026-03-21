@@ -9,5 +9,6 @@ public class GrowUp : Augment
     {
         WormAnimation wormAnimation = PlayerStats.Instance.gameObject.GetComponent<WormAnimation>();
         if (wormAnimation != null) wormAnimation.ExtendBody(numberOfBodySegments);
+        PlayerStats.Instance.IncreaseMaxHealth(numberOfBodySegments);
     }
 }

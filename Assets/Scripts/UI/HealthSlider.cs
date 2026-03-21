@@ -31,6 +31,7 @@ public class HealthSlider : MonoBehaviour
     private void UpdateSlider()
     {
         slider.value = PlayerStats.Instance.currentHealth;
+        slider.maxValue = PlayerStats.Instance.maxHealth;
         if (slider.value <= 0)
         {
             if (fill.gameObject.activeSelf) fill.SetActive(false);

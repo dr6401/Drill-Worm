@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,6 +15,7 @@ public class PlayerStats : MonoBehaviour
     [Header("Health")]
     public int currentHealth = 5;
     public int maxHealth = 10;
+    public int healthOnGrowAmount = 0;
     
     [Header("Damage")]
     public int drillDamage = 1;
@@ -74,11 +76,18 @@ public class PlayerStats : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
     }
 
+    public void IncreaseMaxHealth(int amount)
+    {
+        maxHealth += amount;
+        Heal(amount);
+    }
+
     private void LevelUp()
     {
         currentExperience = 0;
         xpUntilLevelUp = Mathf.RoundToInt(xpUntilLevelUp * 1.25f);
         currentLevel++;
+        IncreaseMaxHealth(healthOnGrowAmount);
         GameEvents.OnLevelUp?.Invoke();
     }
 

@@ -935,14 +935,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Animal
   animalObjectRoot: {fileID: 5381527601141499482}
   hp: 5
-  maxHp: 5
-  knockbackForce: 3
+  maxHp: 20
+  knockbackForce: 5
   foodSpawnPrefab: {fileID: 1827901220691140108, guid: 20da4fda4c4df7d498edcc897830f26d, type: 3}
   displayHealthBar: 1
   hpBar: {fileID: 1001537541283097635}
   hpFillBar: {fileID: 5298164452252398734}
   moveSpeed: 2
-  atkDmg: 1
+  atkDmg: 2
   atkRange: 5
   atkCooldown: 2
   atkCooldownTimer: 0
