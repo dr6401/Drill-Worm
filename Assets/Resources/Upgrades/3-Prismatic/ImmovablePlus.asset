@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34734d2af57a5d04da0115189e7895a5, type: 3}
+  m_Name: ImmovablePlus
+  m_EditorClassIdentifier: Assembly-CSharp::KnockbackResistance
+  augmentName: Immovable+
+  description: Reduce knockback by 10%
+  icon: {fileID: 21300000, guid: 662ba48cc27c1314fba879bfbd1bef0b, type: 3}
+  color: {r: 0.64705884, g: 0, b: 1, a: 1}
+  tier: 2
+  category: 3
+  removeFromPoolAfterPicking: 0
+  knockbackResistanceIncrease: 0.1

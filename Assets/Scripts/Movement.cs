@@ -22,6 +22,9 @@ public class Movement : MonoBehaviour
     private float currentDashingTime = 0f;
     public float maxDashingTime = 1f;
     private bool isDashing;
+    
+    [Header("Knockback")]
+    public float knockbackForceReductionMultiplier = 0f;
 
     private Vector2 velocity;
     private Vector3 worldPosition;
@@ -125,6 +128,6 @@ public class Movement : MonoBehaviour
     {
         Vector2 direction = ((Vector2)headTransform.position - sourcePosition).normalized;
         
-        velocity += direction * force;
+        velocity += direction * (force * (1 - knockbackForceReductionMultiplier));
     }
 }

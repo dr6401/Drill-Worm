@@ -10524,6 +10524,10 @@ PrefabInstance:
       propertyPath: xpUntilLevelUp
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4617737787753090231, guid: cfdefbf80aa08d847896728ce5d08818, type: 3}
+      propertyPath: knockbackForceReductionMultiplier
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5963124231435288324, guid: cfdefbf80aa08d847896728ce5d08818, type: 3}
       propertyPath: m_Enabled
       value: 0
