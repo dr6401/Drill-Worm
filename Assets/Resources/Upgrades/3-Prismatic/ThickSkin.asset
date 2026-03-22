@@ -18,5 +18,5 @@ MonoBehaviour:
   color: {r: 0.6467147, g: 0, b: 1, a: 1}
   tier: 2
   category: 2
-  removeFromPoolAfterPicking: 1
+  removeFromPoolAfterPicking: 0
   healthPerBodyPartIncrease: 1

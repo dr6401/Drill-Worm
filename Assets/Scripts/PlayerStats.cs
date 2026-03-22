@@ -87,7 +87,7 @@ public class PlayerStats : MonoBehaviour
         currentExperience = 0;
         xpUntilLevelUp = Mathf.RoundToInt(xpUntilLevelUp * 1.25f);
         currentLevel++;
-        IncreaseMaxHealth(healthOnGrowAmount);
+        IncreaseMaxHealth(1);
         GameEvents.OnLevelUp?.Invoke();
     }
 
