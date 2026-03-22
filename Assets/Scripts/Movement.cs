@@ -18,10 +18,10 @@ public class Movement : MonoBehaviour
     [Header("Dash")]
     public float dashMoveSpeedIncreaseMultiplier = 1.5f;
     public float dashCooldown = 3f;
-    private float timeSinceLastDash = 0f;
+    public float timeSinceLastDash = 0f;
     private float currentDashingTime = 0f;
     public float maxDashingTime = 1f;
-    private bool isDashing;
+    public bool isDashing;
     
     [Header("Knockback")]
     public float knockbackForceReductionMultiplier = 0f;

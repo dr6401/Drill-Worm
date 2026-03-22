@@ -335,6 +335,7 @@ MonoBehaviour:
   xpUntilLevelUp: 10
   currentHealth: 5
   maxHealth: 10
+  healthOnGrowAmount: 0
   drillDamage: 1
 --- !u!114 &6859763853650543997
 MonoBehaviour:
@@ -409,7 +410,10 @@ MonoBehaviour:
   acceleration: 15
   dashMoveSpeedIncreaseMultiplier: 2
   dashCooldown: 3
+  timeSinceLastDash: 0
   maxDashingTime: 2
+  isDashing: 0
+  knockbackForceReductionMultiplier: 0
 --- !u!114 &6176502199102789199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,7 +1081,7 @@ MonoBehaviour:
   smoothSpeed: 50
   zoomSpeed: 3
   minZoom: 3
-  maxZoom: 10
+  maxZoom: 15
 --- !u!1 &8893859647093566015
 GameObject:
   m_ObjectHideFlags: 0
