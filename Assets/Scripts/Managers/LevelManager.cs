@@ -9,9 +9,14 @@ public class LevelManager : MonoBehaviour
     private bool isInputBlocked = false;
 
     public GameObject deathCanvas;
+    public GameObject pauseCanvas;
     void Start()
     {
         deathCanvas?.SetActive(false);
+        pauseCanvas?.SetActive(false);
+        Time.timeScale = 1;
+        isPaused = false;
+        isInputBlocked = false;
     }
 
     // Update is called once per frame
@@ -20,7 +25,7 @@ public class LevelManager : MonoBehaviour
         if (isInputBlocked) return;
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            TogglePauseGame();
+            PauseGame();
         }
     }
 
@@ -28,6 +33,13 @@ public class LevelManager : MonoBehaviour
     {
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0 : 1;
+    }
+
+    public void PauseGame()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0 : 1;
+        pauseCanvas.SetActive(isPaused);
     }
 
     private void ToggleInputBlocked()

@@ -1081,7 +1081,7 @@ MonoBehaviour:
   smoothSpeed: 50
   zoomSpeed: 3
   minZoom: 3
-  maxZoom: 15
+  maxZoom: 20
 --- !u!1 &8893859647093566015
 GameObject:
   m_ObjectHideFlags: 0

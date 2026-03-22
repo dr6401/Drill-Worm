@@ -228,7 +228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Ore
   animalObjectRoot: {fileID: 0}
   hp: 0
-  maxHp: 7
+  maxHp: 10
   knockbackForce: 15
   foodSpawnPrefab: {fileID: 2611925998697613470, guid: 6a31e2c9f7e539d4d887ea8c2bf4590b, type: 3}
   displayHealthBar: 0

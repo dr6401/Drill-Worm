@@ -15,7 +15,8 @@ MonoBehaviour:
   augmentName: Drill Power
   description: Increase Drill damage +2
   icon: {fileID: 6384268140839771517, guid: 32146e5c6c06e9d4ea904a3d72c52694, type: 3}
-  color: {r: 0, g: 0.6313726, b: 1, a: 1}
-  tier: 0
+  color: {r: 0.64705884, g: 0, b: 1, a: 1}
+  tier: 2
   category: 0
+  removeFromPoolAfterPicking: 0
   damageIncrease: 2
