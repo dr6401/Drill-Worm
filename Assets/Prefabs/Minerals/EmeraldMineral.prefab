@@ -141,4 +141,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75475adaa3f3bdb4abd9bbeb831ed7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Food
-  xpOnConsume: 10
+  xpOnConsume: 15
+  hpOnConsume: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b84c7ef37297f44ab1880d326b06c47, type: 3}
+  m_Name: BurrowOverdrive
+  m_EditorClassIdentifier: Assembly-CSharp::DashDurationIncrease
+  augmentName: Burrow Overdrive
+  description: Increase dash duration by +0.5s
+  icon: {fileID: 21300010, guid: bad6c0f0bf6c3aa4690d400a757fa284, type: 3}
+  color: {r: 0.54901963, g: 1, b: 0, a: 1}
+  tier: 0
+  category: 1
+  removeFromPoolAfterPicking: 0
+  durationIncrease: 0.5
