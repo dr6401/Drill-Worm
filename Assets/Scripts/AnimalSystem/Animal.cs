@@ -142,7 +142,7 @@ public class Animal : Unit
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!IsInState(new AttackExecuteState())) return;
+        if (!IsInState(new AttackExecuteState()) && !IsInState(new AttackWindupState()) && !IsInState(new ChaseState())) return;
         if (atkCooldownTimer >= atkCooldown)
         {
             if (other.CompareTag("Head"))
